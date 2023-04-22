@@ -1,0 +1,27 @@
+/* stylesheet for index.html*/
+body {
+    background-color: rgb(226, 209, 155);
+  }
+  
+  h1 {
+    color: rgb(235, 15, 15);
+    margin-left: 20px;
+    font-size: 45px;
+  }
+
+  h3{
+    color: #06457c;
+    font-size: 25px;
+
+  }
+
+  h2{
+    color: hsl(0, 100%, 37%);
+    font-size: 35px;
+
+  }
+  
+
+  h4{
+    color: black;
+  }
