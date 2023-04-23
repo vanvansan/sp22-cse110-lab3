@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Brainstorming</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sigmar">
 </head>
 
-<body>
+<body   class="gird-container">
     <header>
-        <h1>Meeting content for Genshin Impact intro and gameplay</h1>
+        <h1 style="border-style: dotted; border-radius: 10px">Meeting content for Genshin Impact intro and gameplay</h1>
         <img src="meme.jpg" alt="true dude"
      srcset="https://www.memecreator.org/static/images/memes/5482568.jpg">
-        <div> <h3>contents for today</h3></div>
+        <div > <h3>contents for today</h3></div>
         <nav>
             <ul>
                 <li><a href="#intro">intro</a></li>
@@ -22,8 +23,8 @@
             </ul>
         </nav>
         <details>
-            <summary>What is Genshin?</summary>
-            <p>You're right, but Genshin Impact is a brand new open-world adventure game independently developed by miHoYo. The game takes place in a fantasy world called "Teyvat," where individuals chosen by the gods are granted the power of elemental magic through the "Vision" bestowed upon them. You'll play as a mysterious character called the "Traveler," who embarks on a journey to reunite with lost loved ones while uncovering the truth behind the "Genshin."
+            <summary id="sum">What is Genshin?</summary>
+            <p style="color: blue">You're right, but Genshin Impact is a brand new open-world adventure game independently developed by miHoYo. The game takes place in a fantasy world called "Teyvat," where individuals chosen by the gods are granted the power of elemental magic through the "Vision" bestowed upon them. You'll play as a mysterious character called the "Traveler," who embarks on a journey to reunite with lost loved ones while uncovering the truth behind the "Genshin."
 
                 As you freely explore this vast world, you'll encounter a diverse cast of companions with unique abilities and personalities. Together, you'll face off against formidable foes and gradually uncover the secrets of "Genshin."
                 
@@ -68,9 +69,9 @@
 
                 </p>
             </section>
-            <section>
+            <section >
                 <h2>how do you play genshin</h2>
-                <ol>
+                <ol style="display: block;">
                     <li><b>Prioritize Exploration: Genshin Impact is a game that rewards exploration, so make sure to take the time to explore each region of the world thoroughly. Look for chests, collectibles, and hidden secrets, and take note of any resources that you come across, as they can be used for crafting and upgrading your characters.</b><br></li>
                     <li><strong>Build a Balanced Team: When building your team, make sure to have a balanced combination of characters that can cover each other's weaknesses. Each character has their own unique abilities and elemental powers, so experiment with different combinations to find what works best for you. Additionally, make sure to level up your characters evenly to avoid any weak links in your team.<br></strong></li>
                     <li><i>Upgrade Your Weapons and Artifacts: As you progress through the game, you'll come across new weapons and artifacts that can help you increase your characters' stats and abilities. Make sure to regularly upgrade your weapons and artifacts to keep your team at its strongest.<br></i></li>
@@ -80,30 +81,42 @@
                     
                 </ol>
             </section>
+            <section style="display: none;">
+                <h2>why u shouldnt play genshin anymore!</h2>
+                <p>Firstly, Genshin Impact is a free-to-play game that incorporates microtransactions, meaning that players can spend real money on in-game items and currency. This can lead to a pay-to-win situation, where players who spend more money on the game have a distinct advantage over those who do not. Additionally, some players have reported feeling pressured to spend money in order to progress in the game or keep up with other players.
+
+                    Secondly, Genshin Impact has been criticized for its gacha mechanics, which involve spending in-game currency or real money on randomized loot boxes in order to obtain new characters and items. This can be addictive and can lead to overspending in order to obtain rare or desirable items.
+                    
+                    Finally, some people may find Genshin Impact to be overly time-consuming, as it requires a significant amount of grinding and repetition in order to progress in the game. This can be frustrating and may not be enjoyable for everyone.
+                    
+                    Ultimately, whether or not someone should play Genshin Impact depends on their personal preferences and values. It is important to be aware of the potential drawbacks of the game before deciding whether or not to play it.</p>
+            </section>
             <h2>Demo video and soundtract</h2>
             <video width="1000" height="560" controls>
                 <source src="https://ia601509.us.archive.org/10/items/Rick_Astley_Never_Gonna_Give_You_Up/Rick_Astley_Never_Gonna_Give_You_Up.ogv" type="video/ogg">
                 Your browser does not support the video tag.
-              </video>
-              <audio controls>
-              <source src="https://www.myinstants.com/media/sounds/4k-ehe-te-nandayo-paimon-green-screen-update.mp3" type="audio/mp3">
-                Your browser does not support the audio tag.
-              </audio>
+            </video>
+            
+
 
     </main>
-    <footer>
-        <h2>Become a traveller now!</h2>
-        <form action="/action_page.php" method="get">
+    <footer >
+        <audio control>
+            <source src="https://www.myinstants.com/media/sounds/4k-ehe-te-nandayo-paimon-green-screen-update.mp3" type="audio/mp3">
+              Your browser does not support the audio tag.
+            </audio>
+        <h2 >Become a traveller now!</h2>
+        <form action="/action_page.php" method="get"  class="flex-container" style="max-width: 50%; border-style: groove; border-color: rgb(0, 0, 0); border-width: 5px; border-radius: 5px">
             <label for="fname">UID:</label>
             <input type="text" id="fname" name="fname"><br><br>
-            <label for="lname">Credit Card NO.:</label>
+            <label for="lname" style="text-decoration-line:underline; text-decoration-thickness: 10%">Credit Card NO.:</label>
             <input type="text" id="lname" name="lname"><br><br>
             <button type="button">Pay for nothing</button>
           </form>
           <h2>Leave your comment about Genshin </h2>
-          <label for="type">Your feedback type:</label>
+          <label for="type" >Your feedback type:</label>
 
-            <select id="type">
+            <select id="type"  class="flex-container">
             <option>Positive</option>
             <option>Negative</option>
             <option>dope</option>
@@ -115,7 +128,7 @@
           <textarea id="w3review" name="w3review" rows="4" cols="50">People who don't play Genshin Impact can only live a relatively unsuccessful life.</textarea>
 
           <form action="/action_page.php">
-            <fieldset>
+            <fieldset  class="flex-container">
               <legend>Accont info:</legend>
               <label >First name:</label>
               <input type="text" ><br><br>
@@ -128,6 +141,38 @@
               <input type="submit" value="Submit">
             </fieldset>
           </form>
+
+          <h2>Reference</h2>
+          <h3>Element table</h3>
+          <div class="grid-container">
+            <div class="grid-item">Pyro (fire)</div>
+            <div class="grid-item">Hydro (water)</div>
+            <div class="grid-item">Anemo (wind)</div>
+            <div class="grid-item"> Electro (electricity)</div>
+            <div class="grid-item">Cryo (ice)</div>
+            <div class="grid-item">Geo (earth)</div>
+            <div class="grid-item">Dendro (nature)</div>
+          </div>
+
+          <h3>top 6 chars</h3>
+          <div class="grid-row"> Diluc - a Pyro (fire) user and the owner of the Dawn Winery in Mondstadt</div>
+          <div class="grid-row">Keqing - an Electro (electricity) user and the Yuheng of the Liyue Qixing
+        </div>
+          <div class="grid-row">Klee - a Pyro (fire) user and a young girl who loves explosives and is always accompanied by her pet bomb, Dodoco
+        </div>
+          <div class="grid-row"> Zhongli - a Geo (earth) user and a consultant to the Liyue Qixing, known for his wealth and knowledge of ancient history
+        </div>
+          <div class="grid-row">Ganyu - a Cryo (ice) user and the secretary for the Yuehai Pavilion in Liyue
+        </div>
+          <div class="grid-row">Mona - a Hydro (water) user and an astrologist who uses her abilities to see the future and manipulate water
+        </div>
+
+        <h3>top 4 weapons</h3>
+        <div class="grid-row">Primordial Jade Winged-Spear - A 5-star polearm weapon that increases the wielder's ATK and CRIT Rate, and has a unique passive that increases damage dealt to enemies with lower HP. </div>
+        <div class="grid-row">Skyward Harp - A 5-star bow weapon that increases the wielder's CRIT Rate and has a unique passive that increases the damage dealt by CRIT hits and restores some energy when a CRIT hit occurs. </div>
+        <div class="grid-row">Wolf's Gravestone - A 5-star claymore weapon that increases the wielder's ATK and has a unique passive that increases the damage dealt to enemies with lower HP.
+        </div>
+        <div class="grid-row"> The Unforged - A 5-star claymore weapon that increases the wielder's ATK and has a unique passive that increases shield strength and damage dealt based on the strength of the wielder's shield.        </div>
 
     </footer>
 </body>

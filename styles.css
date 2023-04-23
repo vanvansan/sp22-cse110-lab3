@@ -1,12 +1,19 @@
 /* stylesheet for index.html*/
 body {
+  font-family: "Sigmar", sans-serif;
     background-color: rgb(226, 209, 155);
+    max-width:max-content;
+    position: relative;
+    left: 3%;
   }
   
+  
   h1 {
+    text-align: center;
     color: rgb(235, 15, 15);
     margin-left: 20px;
     font-size: 45px;
+    padding: 10px 10px 10px 10px;
   }
 
   h3{
@@ -18,10 +25,88 @@ body {
   h2{
     color: hsl(0, 100%, 37%);
     font-size: 35px;
-
   }
   
-
+#sum{
+  font-size: 50px;
+}
   h4{
     color: black;
   }
+
+  nav{
+    border: 15px solid green;
+    
+    margin-top: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 100px;
+  }
+
+  summary{
+    
+    margin: 20px 20px 20px 20px ;
+
+  }
+
+  details{
+    position: bottom;
+    top: 50px;
+  }
+
+  details:hover{
+    size: 110%;
+    color: blue;
+  }
+
+  details:active{
+    color: blueviolet;
+  }
+
+li{
+  min-height: 50px;
+}
+
+p{
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.grid-container{
+  font-size: small;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  background-color: rgba(211, 64, 64, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-row{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  min-width: 100%;
+  text-align: center;
+}
+
+video{
+  width: 80%;
+  height: auto;
+}
+@font-face {
+  font-family: what;
+  src: url();
+}
+
